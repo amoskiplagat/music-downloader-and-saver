@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Playlist Maker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="photos/Screenshot 2023-05-24 at 20.18.30.png" alt="Logo">
+  </div>
+
+  <h1>Music Playlist Maker</h1>
+
+  <div class="input-group">
+    <input type="text" id="musicName" placeholder="Enter video name">
+    <input type="text" id="musicLink" placeholder="Enter music/video link">
+    <button onclick="saveSong()">Save</button>
+  </div>
+
+  <ul id="playlist"></ul>
+
+  <div class="player">
+    <audio id="audioPlayer" controls></audio>
+    <video id="videoPlayer" controls></video>
+  </div>
+
+  <footer>
+    &copy; 2023 Music Playlist Maker by Amos Kiplang'at. All rights reserved.
+  </footer>
+
+  <script src="javascript"></script>
+</body>
+</html>
+
